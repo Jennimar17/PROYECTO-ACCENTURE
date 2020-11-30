@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+body {
+    margin: 0;
+    background-image: linear-gradient(to right top, #e4b4ff, #d6adff, #c7a7ff, #b7a1ff, #a49cff);
+}
+
+.cards-container {
+    width: 800px;
+    box-sizing: border-box;
+    padding-left: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    width: 800px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px 0.5px rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+}
+
+.cards-img img {
+    width: 400px;
+    height: 300px;
+    display: block;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.cards-text {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cards-text--item {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #F2F2F4;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #4F0081;
+}
+
+.cards-text--question {
+    font-size: 20px;
+    color: #4F0081;
+}
+
+.cards-text--answer {
+    font-size: 15px;
+    color: #A100FF;
+}
