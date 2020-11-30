@@ -14,12 +14,10 @@ body {
 
 .cards {
     width: 800px;
-    height: 300px;
+    height: auto;
     margin-top: 20px;
     border-radius: 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     box-shadow: 0 0 10px 0.5px rgba(0, 0, 0, 0.4);
     background-color: #fff;
 }
